@@ -39,7 +39,7 @@ public class WordCount {
 				distinctWords.put(words.get(i), 1)	;
 			} else {
 				Integer count = distinctWords.get(words.get(i));
-				distinctWords.put(words.get(i))count++;
+				distinctWords.put(words.get(i), count + 1);
 			}
 		}
 		
